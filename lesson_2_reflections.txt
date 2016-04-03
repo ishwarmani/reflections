@@ -8,13 +8,27 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	staging area is temporary region which contains file/files with similar
+	logical changes and need to be committed in single commit whereas 
+	working directory contains the both files in staging and non-staging
+	region.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	By adding all files having same logical changes to staging area we can 
+	ensure that one commit per logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Branching can be helpful in checking some features which we don't want to
+	be there in main branch,rather just want to give it a check.And git keeps
+	the history of experimental branch and master branch different making it
+	easy to go back to master branch or vice-versa.
 
 How do the diagrams help you visualize the branch structure?
+
+	
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
