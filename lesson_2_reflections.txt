@@ -21,6 +21,7 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
 	Branching can be helpful in checking some features which we don't want to
 	be there in main branch,rather just want to give it a check.And git keeps
 	the history of experimental branch and master branch different making it
@@ -28,10 +29,22 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
-	
+	Diagrams helps in knowing what changes were made by which collabrator in
+	short and remembering it becomes simpler.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+	when two branches are merged the changes are brought together in single file 
+	(commit) and all commits of two branches are interleaved.For simple 
+	memorization and understanding it is represented as we did.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	pros : I think if git would have automatically done merges then in case of 
+	large files with many canges it would have been easier for user to work as
+	that would take lot of time which is against the concept which git provides
+	of quick and efficient ways of doing things.
+
+	cons : there could be problem for user not knowing how conflicts have been 
+	managed.And knowing conflicts resolution gives user more knowledge of project.

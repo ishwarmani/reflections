@@ -16,23 +16,51 @@ efficient programmer in the long term?
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
+	
+	for manual commits,
+    pros : the user can give the name of change what he/she desires.
+    	   and depending upon user's ability to understand changes,
+    	   they can decrease or increase size of changes made.
+    cons : if one forgets to commit there can be problem.
 
-    Fill in your answer here
+    for having automatical commits
+    pros : if one forgets to do, there won't be any problem.
+   	coms : size will be fixed.
+   		   tough to understand as compared with manual.
+
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Fill in your answer here
+     version control systems, like Git, are more oriented for software building
+     thus having inter-dependencies, and hence allowing saving multiple files 
+     in one commit.
+     while others, like Google Docs, are more focussed for general purpose
+     thus less interdependencies and hence treats each file separately.
+
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+    git log : it shows all commits made which can be fitted in screen,entering
+    		  further shows the further commits,and when one find the desired
+    		  commit then can quit by pressing q(quit).
+   	git diff <commit ID1> <commitID2>
+   			: this show all the changes made in file with commit ID1 
+   			  green +, line show lines that were added to file with commit ID1
+   			  and red minuses shows lines which were deleted from file
+   			  with commit ID1.
+
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+    As I can keep record of changes which I make, and easy shift to that 
+    changed file from current file and vice-versa,thus there won't be any 
+    worry while making alteration to files.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    I would love to use git for developing my Android apps projects.
+    As well as do some competetive programming here,as I make make frequently
+    which sometime leads me to wrong answer, and making it tough to get back.
+    Now there would be fun to reach it back.
