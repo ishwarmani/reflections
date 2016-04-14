@@ -10,3 +10,12 @@ stay up-to-date with your remote repository?
 	When working in collabration then automatically remoting may cause a problem since
 	one may not wanna get changes made by other.And when done manually one can look, 
 	understand and then pull.
+
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+	fork : It allows us to make copy of someone's repository to our owm account.
+		   It can be said as cloning from github to github account.
+	clone : It allows us to get directly a repository from our or any other's github
+			account to local device.
+	branch : A branch represents an independent line of development.It is helpful 
+			 when many collabrators are working and also for experimenting.
