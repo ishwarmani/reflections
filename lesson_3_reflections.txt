@@ -13,9 +13,15 @@ stay up-to-date with your remote repository?
 
 Describe the differences between forks, clones, and branches. When would you use one 
 instead of another?
+
 	fork : It allows us to make copy of someone's repository to our owm account.
 		   It can be said as cloning from github to github account.
 	clone : It allows us to get directly a repository from our or any other's github
 			account to local device.
 	branch : A branch represents an independent line of development.It is helpful 
 			 when many collabrators are working and also for experimenting.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	
+	It is helpful if we are working offline and want to know about it and want
+	to run git diff to get changes with local master.
