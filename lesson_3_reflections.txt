@@ -25,3 +25,11 @@ What is the benefit of having a copy of the last known state of the remote store
 	
 	It is helpful if we are working offline and want to know about it and want
 	to run git diff to get changes with local master.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would
+ be harder?
+
+ 	Without Git and Github, collabration would be very tough as then files need to swapped
+ 	with other collabrator and describing him what he/she has changed and both need to 
+ 	have conversation for this, thus taking lot of time. And understanding different version 
+ 	also be tough.
