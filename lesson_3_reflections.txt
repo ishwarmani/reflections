@@ -33,3 +33,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
  	with other collabrator and describing him what he/she has changed and both need to 
  	have conversation for this, thus taking lot of time. And understanding different version 
  	also be tough.
+
+ When would you want to make changes in a separate branch rather than directly in master? 
+ What benefits does each approach have?
+
+ 	I think while checking something new,like new feature I would like to make change in 
+ 	separate branch and if it works then I would go for pull request with other collabrator,
+ 	then if it fine with him/her I would merge it with master branch.
